@@ -7,7 +7,7 @@ export default function Home() {
         <div className="hero-overlay bg-opacity-70"></div>
         <div className="hero-content text-center">
           <div className="max-w-2xl">
-            <h1 className="text-6xl font-bold py-5">Your All-in-One Project Management Solution Integrated with Discord!</h1>
+            <h1 className="text-6xl font-bold py-8">Your All-in-One Project Management Solution Integrated with Discord!</h1>
             <button className="btn btn-wide btn-primary">Get Started</button>
           </div>
         </div>
