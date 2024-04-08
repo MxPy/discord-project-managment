@@ -27,7 +27,7 @@ export const Navbar = () => {
                 <li><Link href="/faq">FAQ</Link></li>
             </ul>
             </div>
-            <Link className="btn  btn-ghost text-xl" href="/">DiMenager</Link>
+            <Link className="btn  btn-ghost text-xl" href="/">Diman</Link>
             
         </div>
         <div className="navbar-center hidden lg:flex">
@@ -48,7 +48,8 @@ export const Navbar = () => {
             </ul>
         </div>
         <div className="navbar-end">
-            <a className="btn btn-primary ">Login</a>
+                <a className="btn btn-primary mx-2">Login</a>
+                <a className="btn btn-primary ">Get started</a>
         </div>
         </div>
   )
