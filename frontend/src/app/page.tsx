@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -8,7 +9,7 @@ export default function Home() {
         <div className="hero-content text-center">
           <div className="max-w-2xl">
             <h1 className="text-6xl font-bold py-8">Your All-in-One Project Management Solution Integrated with Discord!</h1>
-            <button className="btn btn-wide btn-primary">Start being agile for free!!</button>
+            <Link href="/ui" className="btn btn-wide btn-primary">Start being agile for free!!</Link>
           </div>
         </div>
       </div>
