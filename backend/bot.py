@@ -43,3 +43,15 @@ async def send_message(message: schemas.SendMessage):
     channel = client.get_channel(1228350124690767953)
     await channel.send(message.content)
     return {"Hello": str(client.user)}
+
+@client.event
+async def on_message(message):
+    if message.author == client.user:
+        return 
+    
+    user_id = str(message.author.id)
+    username = str(message.author)
+    user_message = str(message.content)
+    channel = str(message.channel)
+    
+    await message.channel.send(channel)
