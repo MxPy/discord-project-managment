@@ -9,6 +9,7 @@ import os
 from dotenv import load_dotenv
 
 
+
 app = FastAPI()
 #FRONTEND = config("frontend")
 
@@ -54,4 +55,4 @@ async def on_message(message):
     user_message = str(message.content)
     channel = str(message.channel)
     
-    await message.channel.send(channel)
+    await message.channel.send(message.channel.id)
